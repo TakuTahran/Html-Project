@@ -209,7 +209,7 @@ a.align-right:hover {
     color: #fff;
 }
 
-.form-padding input[type="text"],.form-padding textarea {
+.form-padding input[type="text"],.form-padding textarea, .form-padding input[type="text"], {
     background-color: #22305b;
     border-color: #fff;
     color: rgba(255, 255, 255, 0.75);
@@ -263,4 +263,9 @@ svg.svg-logo~h1 {
     h2 {
         font-size: 60px !important;
     }
+    body input,body textarea{
+        font-size: 26px !important;
+    }.padded {
+    padding: 10vh 10.5vw;
+        }
 }
